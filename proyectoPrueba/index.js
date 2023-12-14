@@ -3,6 +3,10 @@ import express, { Router } from 'express';
 // importamos conexión a base de datos
 import conexionMongo from './config/db.js';
 
+// Configuramos dotenv para usar las variables de estado
+import dotenv from "dotenv";
+dotenv.config();
+
 
 //Estoy creando una instancia de express y la asigno a app
 //así se sabe que estamos haciendo un proyecto de node usando express
