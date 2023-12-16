@@ -23,7 +23,7 @@
 <!-- Contenido de cada sección -->
 
 ## Repaso Bootstrap
-Hagamos nuestro front usando los estilos de Bootstrap. Bootstrap es un marco de diseño que facilita la creación de páginas web modernas y responsivas. 
+<p><b>Hagamos nuestro front usando los estilos de Bootstrap.<b> Bootstrap es un marco de diseño de código abierto que facilita el desarrollo web. Fue creado por Twitter y ofrece un conjunto de herramientas para la creación rápida y consistente de interfaces de usuario. Bootstrap incluye estilos predefinidos, componentes de interfaz, y un sistema de gird que facilita el diseño responsive.</p>
 <br>
 <br>
 
@@ -39,14 +39,14 @@ Hagamos nuestro front usando los estilos de Bootstrap. Bootstrap es un marco de 
    - Componentes y iconos de Bootstrap.
 
 2. **Grid de Bootstrap**
-   - Uso del sistema de grillas de Bootstrap.
+   - Uso de row y colum según Grid de Bootstrap.
 
 3. **Uso de las Clases de Bootstrap**
    - Cómo aprovechar las clases predefinidas en Bootstrap.
 ---
 
 ## Repaso Node.js
-Recordemos teoría y estructuremos nuestro proyecto con Node.js. Node.js es un entorno de ejecución de JavaScript del lado del servidor. 
+<p><b>Recordemos teoría y estructuremos nuestro proyecto con Node.js.<b> Node.js es un entorno de ejecución de JavaScript del lado del servidor que utiliza el motor V8 de Google Chrome. Permite ejecutar código JavaScript en el servidor, lo cual es especialmente beneficioso para aplicaciones escalables y en tiempo real. Node.js es conocido por su capacidad para manejar operaciones entrada/salida de manera eficiente y por su ecosistema de módulos (npm).<p>
 <br>
 <br>
 
@@ -74,7 +74,7 @@ Recordemos teoría y estructuremos nuestro proyecto con Node.js. Node.js es un e
 ---
 
 ## Repaso Node.js y Express
-Configuremos nuestro servidor con Express. Express es un marco de aplicación web para Node.js. 
+<p><b>Configuremos nuestro servidor con Express.<b> Express.js es un marco de aplicación web para Node.js. Proporciona una estructura minimalista pero robusta para construir aplicaciones web y APIs. Express simplifica la creación de rutas, manejo de middleware y la gestión de solicitudes y respuestas HTTP.<p>
 <br>
 <br>
 
@@ -93,7 +93,7 @@ Configuremos nuestro servidor con Express. Express es un marco de aplicación we
 ---
 
 ## Repaso MongoDB Atlas
-Creemos nuestro cluster en la nube y conectemos la base con nuestro proyecto. MongoDB Atlas es un servicio de base de datos en la nube totalmente administrado. 
+<p><b>Creemos nuestro cluster en la nube y conectemos la base con nuestro proyecto.<b> MongoDB es un sistema de gestión de bases de datos NoSQL (orientado a documentos). A diferencia de las bases de datos relacionales, no utiliza tablas, sino que almacena datos en documentos flexibles con un formato similar a JSON. MongoDB Atlas es un servicio de base de datos en la nube totalmente gestionado para MongoDB, MongoDB Atlas simplifica la implementación, la escalabilidad y la administración de bases de datos.<p>
 <br>
 <br>
 
@@ -135,6 +135,12 @@ Terminemos el proyecto y mostremos en el front los productos de nuestra base de 
    - Funciones asíncronas.
    - Creación de elementos con innerHTML.
 ---
+
+## Extra - información para despliegue de la app
+
+- [Documentación oficial de fly.io](https://fly.io/docs/) 📚
+- [Tutorial de despliege 1 en YouTube](https://www.youtube.com/watch?v=xLoILOdqW2U&t=332s) 🎥
+- [Tutorial de despliege 2 en YouTube](https://www.youtube.com/watch?v=jK4NEXV371w) 🎥
 
 ## Videos de las Sesiones
 <ul>
