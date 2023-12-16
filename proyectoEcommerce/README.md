@@ -24,7 +24,6 @@
 
 ## Repaso Bootstrap
 Hagamos nuestro front usando los estilos de Bootstrap. Bootstrap es un marco de diseño que facilita la creación de páginas web modernas y responsivas. 
-
 <br>
 <br>
 
@@ -76,7 +75,6 @@ Recordemos teoría y estructuremos nuestro proyecto con Node.js. Node.js es un e
 
 ## Repaso Node.js y Express
 Configuremos nuestro servidor con Express. Express es un marco de aplicación web para Node.js. 
-
 <br>
 <br>
 
@@ -153,7 +151,10 @@ Terminemos el proyecto y mostremos en el front los productos de nuestra base de 
 
 <!-- Subtítulo de Autor -->
 <h2 align="center">Autor</h2>
-Todo el proyecto y la preparación de las clases fueron realizados por [Luisa Fernanda Castaño Vanegas](https://www.linkedin.com/in/luisacastanovanegas/). © 2023.
+
+Proyecto y preparación del workshop, fue realizado por: 
+[Luisa Fernanda Castaño Vanegas](https://www.linkedin.com/in/luisacastanovanegas/). © 2023.
+<br>
 
 <!-- Mensaje de Estrellita -->
 <p>Si te gustó el contenido del repositorio, ¡apóyanos dando una ⭐ al proyecto!</p>
