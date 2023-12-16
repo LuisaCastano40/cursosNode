@@ -1,0 +1,25 @@
+### Obtener todos los productos
+GET http://localhost:3000/api/obtenerProducto
+
+### Crear producto
+POST http://localhost:3000/api/crearProducto
+Content-Type: application/json
+
+{
+    "name": "hello",
+    "imagen": "https://st2.depositphotos.com/3959073/9341/i/450/depositphotos_93416956-stock-photo-slice-of-cheesecake-topped-with.jpg",
+    "precio": 19000
+}
+
+### Actualizar un producto por ID
+PUT http://localhost:3000/api/actualizarProducto/657d257e395ac2ce6be16f3b
+Content-Type: application/json
+
+{
+    "name": "Nuevo nombre",
+    "imagen": "https://nueva-imagen.jpg",
+    "precio": 25000
+}
+
+### Eliminar un producto por ID
+DELETE http://localhost:3000/api/eliminarProducto/657d257e395ac2ce6be16f3b

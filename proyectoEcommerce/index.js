@@ -1,24 +1,44 @@
+// 1. IMPORTAMOS dependencias y/o modulos Y CONFIGURAMOS EXPRESS COMO SERVIDOR
 //importamos dependencias según sistema de módulos ES6
 import express from 'express';
 // Importamos path para usar ciertas utilidades a la hora de trabajar con rutas
 import path from 'path';
+// importamos la función de conexion a base de datos
+import conexionMongo from './config/db.js';
+// importamos las rutas de la api
+import productRouter from './routes/product.routes.js';
 
-//Estoy creando una instancia de express y la asigno a app
-//así se sabe que estamos haciendo un proyecto de node usando express
+
+//configuramos express como servidor
 const app = express();
+// puerto que vamos a usar para escuchar las solicitudes
+const port = 3000; 
+
+// configuramos el uso de dotenv -> para usar variables de estado
+import dotenv from "dotenv";
+dotenv.config();
+
+//  ejecutamos la función de conexión de nuestra base de datos
+conexionMongo();
 
 
-// nos permite obtener la ruta absoluta del directorio "public"
-//path.join():se utiliza para unir segmentos de ruta en una sola ruta (process.cwd()) + ('public')
-//process.cwd(): Ruta raíz desde donde se ejecuta el script Node.js.
-//'public': nombre de la carpeta donde estan los archivos estáticos a los cuales queremos acceder (html, css, js, assets, etc)
+// 2. ESTABLECEMOS LAS RUTAS PARA NUESTRO FRONT
+
+// obtenemos la ruta absoluta de nuestra carpeta public
 const publicPath = path.join(process.cwd(), 'public');
-
-// Configurar middleware para servir archivos estáticos desde la carpeta 'public'
-// app.use(): Es un método que se utiliza para configurar middleware
-// express.static(): Es una función que se utiliza para servir archivos estáticos
-//publicPath: ruta absoluta (raíz de mis archivos)
+// configuramos middleware
+// middleware para usar los archivos estáticos dentro de public
 app.use(express.static(publicPath));
+// middleware para cuando esperas recibir datos en formato JSON
+app.use(express.json());
+// middleware para conectar con las rutas de la api
+app.use('/api', productRouter);
+
+
+// Ruta de ejemplo
+// app.get('/', (req, res) => {
+//   res.send('¡Hola, mundo!');
+// });
 
 // Ruta para index.html
 // manejo de solicitud en una aplicación Node.js
@@ -29,33 +49,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(publicPath, 'index.html'));
 });
 
-// Ruta para nosotros.html
-app.get('/nosotros', (req, res) => {
-  res.sendFile(path.join(publicPath, 'nosotros.html'));
+// 3. INICIALIZAMOS EL SERVIDOR
+app.listen(port, () => {
+  console.log(`El servidor está escuchando en http://localhost:${port}`);
 });
-
-const server = app.listen(3000, () => {
-    // Imprimir el puerto en el que está corriendo el servidor
-    console.log(`Servidor iniciado en http://localhost:3000`);
-});
-
-// Iniciar el servidor en un puerto dinámico o en el puerto 0
-// Si el puerto es 0, se asignará un puerto disponible automáticamente
-// const server = app.listen(0, () => {
-//     // Imprimir el puerto en el que está corriendo el servidor
-//     console.log('Servidor corriendo en el puerto: ', server.address().port);
-// });
-
-
-// const router = express.Router();
-
-// router.get('/', (req, res) => {
-//   res.sendFile(path.join(publicPath, 'index.html'));
-// });
-
-// router.get('/nosotros', (req, res) => {
-//   res.sendFile(path.join(publicPath, 'nosotros.html'));
-// });
-
-// app.use(express.static(publicPath));
-// app.use(router);
