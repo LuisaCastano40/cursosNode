@@ -149,7 +149,7 @@ Terminemos el proyecto y mostremos en el front los productos de nuestra base de 
   <li><a href="https://drive.google.com/file/d/1sKjMtHwKbwKEzLVjYDBXpwIYqRHdGs2z/view?usp=sharing" target="_blank">Video Sesión 3</a> 🎥</li>
   <li><a href="https://drive.google.com/file/d/1UfcW3fihQbPhBpS6n9AU_SmlTncdoREq/view?usp=sharing" target="_blank">Video Sesión 4</a> 🎥</li>
   <li><a href="https://drive.google.com/file/d/1rgXMn0A9f9bzqYo_lAJwjN39LXXx_2sx/view?usp=sharing" target="_blank">Video Sesión 5</a> 🎥</li>
-  <li><a href="#" target="_blank">Video Sesión 6</a> 🎥</li>
+  <li><a href="https://drive.google.com/file/d/1Hxpf87y93oduXLgxTXPncUxd6WaEvG4t/view?usp=sharing" target="_blank">Video Sesión 6</a> 🎥</li>
 </ul>
 
 <!-- Separador -->
