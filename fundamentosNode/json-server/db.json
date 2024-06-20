@@ -1,0 +1,66 @@
+{
+  "profesores": [
+    {
+      "nombre": "luisa",
+      "apellido": "castaño",
+      "cursos": [
+        {
+          "nombre": "Bootcamp desarrollo web full-stack"
+        },
+        {
+          "nombre": "Diplomado desarrollo web full-stack"
+        }
+      ],
+      "id": "98f2"
+    },
+    {
+      "0": {
+        "nombre": "camila",
+        "apellido": "restrepo",
+        "cursos": [
+          {
+            "nombre": "Bootcamp desarrollo web full-stack"
+          },
+          {
+            "nombre": "Diplomado desarrollo web full-stack"
+          }
+        ]
+      },
+      "id": "4232"
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "alumno1",
+      "apellido": "apellido1",
+      "promedio": 5,
+      "id": "587c"
+    },
+    {
+      "nombre": "alumno2",
+      "apellido": "apellido2",
+      "promedio": 5,
+      "id": "088e"
+    },
+    {
+      "nombre": "alumno3",
+      "apellido": "apellido3",
+      "promedio": 5,
+      "id": "0f14"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "Bootcamp desarrollo web full-stack",
+      "duracion": 4,
+      "dificultad": "alto",
+      "id": "bbf2"
+    },
+    {
+      "nombre": "Diplomado desarrollo web full-stack",
+      "duracion": 2,
+      "dificultad": "intermedio",
+      "id": "3156"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "servidor de practica con info de cursos",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "luisa castaño",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
