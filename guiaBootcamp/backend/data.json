@@ -1,0 +1,28 @@
+[
+    {
+        "nombre":"Cheesecake de frutos rojos",
+        "imagen":"https://cdn0.recetasgratis.net/es/posts/1/4/9/cheesecake_de_frutos_rojos_73941_orig.jpg",
+        "precio":"30000"
+    },
+    {
+        "nombre": "Torta de chocolate",
+        "imagen": "https://cdn.colombia.com/gastronomia/2015/03/24/tarta-de-chocolate-3088.jpg",
+        "precio": 30000
+    },
+    {
+        "nombre": "torte red velvet",
+        "imagen": "https://assets.elgourmet.com/wp-content/uploads/2021/10/shutterstock_1999720376-e1681420280318.jpg",
+        "precio": 30000
+    },
+    {
+        "nombre":"Tarta selva negra4",
+        "imagen":"https://cdn0.recetasgratis.net/es/posts/1/4/9/cheesecake_de_frutos_rojos_73941_orig.jpg",
+        "precio":"29000"
+    },
+    {
+        "nombre":"Tarta selva negra5",
+        "imagen":"https://cdn0.recetasgratis.net/es/posts/1/4/9/cheesecake_de_frutos_rojos_73941_orig.jpg",
+        "precio":"29000"
+    }
+
+]
