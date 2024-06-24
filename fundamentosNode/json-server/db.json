@@ -47,6 +47,12 @@
       "apellido": "apellido3",
       "promedio": 5,
       "id": "0f14"
+    },
+    {
+      "id": "d5e6",
+      "nombre": "alumno2",
+      "apellido": "apellido2",
+      "promedio": 5
     }
   ],
   "cursos": [
